@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "run": "live-server",
+    "css": "sass scss/index.scss:css/style.css -w"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "sass": "^1.49.7"
+  }
+}

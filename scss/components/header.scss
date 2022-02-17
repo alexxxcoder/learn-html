@@ -1,0 +1,13 @@
+.header {
+  height: $header-height;
+  padding: 10px 12px;
+  display: flex;
+  background-color: white;
+
+  &--dark {
+    background-color: black;
+  }
+
+
+
+}

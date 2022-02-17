@@ -1,0 +1,99 @@
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "/asset/fonts" !default;
+
+// $icon-notifications: "\e900";
+// $icon-search: "\e901";
+// $icon-icons: "\e902";
+
+
+$icon-apps: "\e900";
+$icon-arrow-top: "\e901";
+$icon-arrowBottom: "\e902";
+$icon-close: "\e903";
+$icon-create-1: "\e904";
+$icon-create: "\e905";
+$icon-explore-fill: "\e906";
+$icon-explore: "\e907";
+$icon-feedback: "\e908";
+$icon-gaming-fill: "\e909";
+$icon-gaming: "\e90a";
+$icon-hamburger: "\e90b";
+$icon-help: "\e90c";
+$icon-history-fill: "\e90d";
+$icon-history: "\e90e";
+$icon-home-fill: "\e90f";
+$icon-home: "\e910";
+$icon-icons: "\e911";
+$icon-leftBottom: "\e912";
+$icon-library-fill: "\e913";
+$icon-library: "\e914";
+$icon-liked-fill: "\e915";
+$icon-liked: "\e916";
+$icon-live-fill: "\e917";
+$icon-live: "\e918";
+$icon-menu: "\e919";
+$icon-mic: "\e91a";
+$icon-More-Vertical: "\e91b";
+$icon-More: "\e91c";
+$icon-notifications: "\e91d";
+$icon-play: "\e91e";
+$icon-premium-fill: "\e91f";
+$icon-premium: "\e920";
+$icon-queue: "\e921";
+$icon-report-fill: "\e922";
+$icon-report: "\e923";
+$icon-search: "\e924";
+$icon-settings: "\e925";
+$icon-sports-fill: "\e926";
+$icon-sports: "\e927";
+$icon-subscriptions-fill: "\e928";
+$icon-subscriptions: "\e929";
+$icon-verified: "\e92a";
+$icon-watchLater-fill: "\e92b";
+$icon-watchLater: "\e92c";
+$icon-yourVideos: "\e92d";
+
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?pcfq9r') format('truetype'),
+  url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?pcfq9r') format('woff'),
+  url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?pcfq9r##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  // speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-notifications {
+  &:before {
+    content: $icon-notifications;
+  }
+}
+
+.icon-search {
+  &:before {
+    content: $icon-search;
+  }
+}
+
+.icon-icons {
+  &:before {
+    content: $icon-icons;
+  }
+}
+

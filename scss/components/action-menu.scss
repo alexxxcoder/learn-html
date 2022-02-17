@@ -1,0 +1,28 @@
+.action-menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+  &__item {
+    display: block;
+    color: $action-menu-item-color;
+    text-decoration: none;
+    font-size: 20px;
+
+    .header--light & {
+      color: black;
+    }
+
+    @media (min-width: 834px) {
+      font-size: 24px;
+    }
+
+    &:not(:last-of-type) {
+      margin-right: 24px;
+    }
+
+    img {
+      display: inherit;
+    }
+  }
+}
